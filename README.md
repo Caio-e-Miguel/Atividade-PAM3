@@ -4,7 +4,7 @@
 
 **Galpão** é um aplicativo mobile feito com **React Native (via Expo)**. 
 
-A proposta do app é unir **jogos simples** com **desafios de lógica e código**, promovendo o aprendizado prático de uma forma leve e acessível.
+A proposta do app é mostrar o armazenamento de uma loja ou mercado de forma prática, leve e acessível.
 
 ---
 
