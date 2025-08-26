@@ -2,54 +2,64 @@
 
 ## 📱 Sobre o Projeto
 
-**Galpão** é um aplicativo mobile feito com **React Native (via Expo)**. 
+**Galpão** é um aplicativo mobile desenvolvido com **React Native (via Expo)**.
 
-A proposta do app é mostrar o armazenamento(estoque) de uma loja ou mercado de forma prática, leve e acessível.
+A proposta do app é mostrar o armazenamento (estoque) de uma loja ou mercado de forma prática, leve e acessível. Também conta com um sistema de cadastro e login para controle de usuários.
 
 ---
 
 ## 👩‍💻 Integrantes
 
-- Caio Fábio
+- Caio Fábio  
 - Vinicius Parra  
-- Luis Gabriel 
-- Matheus Chambo 
+- Luis Gabriel  
+- Matheus Chambo  
 
 ---
 
 ## 🧩 Funcionalidades Principais
 
-- [x] Cadastro e login de usuários  
-- [x] Cadastrar alimentos 
-- [x] Sistema de mostra quantos alimentos tem em forma de pontos e meta
-- [x] Modo claro e escuro  
+- [x] Cadastro e login de usuários com validação de campos obrigatórios  
+- [x] Cadastrar alimentos  
+- [x] Sistema de pontuação e metas com indicadores visuais  
+- [x] Suporte a tema claro e escuro  
+- [x] Interface com feedback visual ao usuário (mensagens de erro e sucesso)
 
 ---
 
 ## ⚙️ Requisitos Funcionais
 
-- Autenticação (cadastro e login)
-- Sistema de pontuação e meta
-- Suporte a tema claro e escuro
+- Autenticação de usuários (cadastro e login)  
+- Validação de formulário (campos obrigatórios)  
+- Interface responsiva com feedback ao usuário  
+- Sistema de pontuação e metas por alimento  
+- Suporte ao tema escuro e claro  
 
 ---
 
 ## 📐 Requisitos Não-Funcionais
 
-- Desenvolvido com **Expo (React Native)** para fácil deploy
-- Compatível com Android (API 21+) e iOS (13+)
-- Interface simples, bonita e fluida, com foco em boa usabilidade
-- Sem necessidade de backend complexo (inicialmente pode usar Firebase ou AsyncStorage para dados locais)
+- Desenvolvido com **Expo (React Native)** para facilitar deploy e testes  
+- Compatível com Android (API 21+) e iOS (13+)  
+- Interface moderna, fluida e acessível  
+- Sem necessidade de backend robusto inicialmente (pode utilizar Firebase ou armazenamento local com AsyncStorage)  
 
 ---
 
 ## 📦 Tecnologias Utilizadas
 
-- [React Native](https://reactnative.dev/)
-- [Expo](https://expo.dev/)
-- [React Navigation](https://reactnavigation.org/)
-- [Firebase Authentication (opcional)](https://firebase.google.com/products/auth) ou AsyncStorage para dados locais
-- [Styled Components](https://styled-components.com/) ou `StyleSheet` para estilização
-- [React Native Paper](https://callstack.github.io/react-native-paper/) ou outro UI kit para deixar o app bonitinho e responsivo
+- [React Native](https://reactnative.dev/)  
+- [Expo](https://expo.dev/)  
+- [React Navigation](https://reactnavigation.org/)  
+- [React Native Paper](https://callstack.github.io/react-native-paper/) – UI Kit com suporte a temas escuro/claro  
+- [Firebase Authentication (opcional)](https://firebase.google.com/products/auth) ou `AsyncStorage` para persistência de dados local  
+- `StyleSheet` para estilização padrão do React Native  
 
 ---
+
+## 🖼️ Telas em Desenvolvimento
+
+- [ ] Tela inicial de login  
+- [ ] Tela de cadastro com validação e tema escuro  
+- [ ] Tela de controle de alimentos (estoque)  
+- [ ] Dashboard com metas e pontos  
