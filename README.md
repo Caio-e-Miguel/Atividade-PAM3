@@ -60,6 +60,6 @@ A proposta do app é mostrar o armazenamento (estoque) de uma loja ou mercado de
 ## 🖼️ Telas em Desenvolvimento
 
 - [ ] Tela inicial de login  
-- [ ] Tela de cadastro com validação e tema escuro  
+- [x] Tela de cadastro com validação e tema escuro  
 - [ ] Tela de controle de alimentos (estoque)  
 - [ ] Dashboard com metas e pontos  
